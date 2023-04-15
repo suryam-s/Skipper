@@ -9,6 +9,7 @@
   padding: 15px 0;
   padding-bottom: 5rem;
   user-select: none;
+  background-color: lightgoldenrodyellow;
 }
 .left_link {
   display: flex;

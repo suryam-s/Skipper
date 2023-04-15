@@ -11,7 +11,7 @@ export const menu = [
       "Organize or find events and other things to do online and nearby.",
   },
   {
-    name: "Find Friends",
+    name: "Connection",
     icon: "friends",
     description: "Search for friends or people you may know.",
   },

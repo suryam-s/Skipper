@@ -34,7 +34,7 @@ export default function Friends() {
       <div className="friends">
         <div className="friends_left">
           <div className="friends_left_header">
-            <h3>Friends</h3>
+            <h3>Connection</h3>
             <div className="small_circle">
               <i className="settings_filled_icon"></i>
             </div>
@@ -63,7 +63,7 @@ export default function Friends() {
               <div className="small_circle">
                 <i className="friends_requests_icon"></i>
               </div>
-              <span>Friend Requests</span>
+              <span>Connection Requests</span>
               <div className="rArrow">
                 <i className="right_icon"></i>
               </div>
@@ -77,7 +77,7 @@ export default function Friends() {
               <div className="small_circle">
                 <i className="friends_requests_icon"></i>
               </div>
-              <span>Sent Requests</span>
+              <span>Requests connection</span>
               <div className="rArrow">
                 <i className="right_icon"></i>
               </div>
@@ -100,7 +100,7 @@ export default function Friends() {
               <div className="small_circle">
                 <i className="all_friends_icon"></i>
               </div>
-              <span>All Friends</span>
+              <span>All connection</span>
               <div className="rArrow">
                 <i className="right_icon"></i>
               </div>
@@ -129,7 +129,7 @@ export default function Friends() {
           {(type === undefined || type === "requests") && (
             <div className="friends_right_wrap">
               <div className="friends_left_header">
-                <h3>Friend Requests</h3>
+                <h3>Requests Connection</h3>
                 {type === undefined && (
                   <Link to="/friends/requests" className="see_link hover3">
                     See all
@@ -152,7 +152,7 @@ export default function Friends() {
           {(type === undefined || type === "sent") && (
             <div className="friends_right_wrap">
               <div className="friends_left_header">
-                <h3>Sent Requests</h3>
+                <h3>Sent Requests Connection</h3>
                 {type === undefined && (
                   <Link to="/friends/sent" className="see_link hover3">
                     See all
@@ -175,7 +175,7 @@ export default function Friends() {
           {(type === undefined || type === "all") && (
             <div className="friends_right_wrap">
               <div className="friends_left_header">
-                <h3>Friends</h3>
+                <h3>Conection</h3>
                 {type === undefined && (
                   <Link to="/friends/all" className="see_link hover3">
                     See all

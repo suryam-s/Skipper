@@ -1,6 +1,6 @@
 export const left = [
   {
-    text: "Find friends",
+    text: "connection",
     img: "friends",
   },
   {
@@ -51,7 +51,7 @@ export const left = [
   },
   {
     text: "Chat",
-    img: "messenger",
+    img: "message",
   },
   {
     text: "Most recent",
@@ -69,17 +69,17 @@ export const left = [
 export const stories = [
   {
     profile_picture: "../../stories/profile1.jpg",
-    profile_name: "Elon Musk",
+    profile_name: "Virat Kholi",
     image: "../../stories/1.jpg",
   },
   {
     profile_picture: "../../stories/profile2.jpg",
-    profile_name: "South park",
-    image: "../../stories/2.png",
+    profile_name: "Ronaldo",
+    image: "../../stories/2.jpg",
   },
   {
     profile_picture: "../../stories/profile3.png",
-    profile_name: "The Sopranos",
+    profile_name: "Rohit sharma",
     image: "../../stories/3.jpg",
   },
   {
@@ -89,7 +89,7 @@ export const stories = [
   },
   {
     profile_picture: "../../stories/profile5.png",
-    profile_name: "The Witcher Wild Hunt",
-    image: "../../stories/5.jfif",
+    profile_name: "Michel Jordan",
+    image: "../../stories/5.jpg",
   },
 ];
